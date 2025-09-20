@@ -746,5 +746,35 @@ body.light-mode .donate-buttons .paypal {
   outline: none;
 }
 
+@media (max-width: 600px) {
+  /* Beispiel: Schriftgrößen etwas kleiner machen */
+  body {
+    font-size: 14px;
+  }
+  
+  /* Beispiel: Breite von Containern anpassen */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  /* Beispiel: Navigation oder Menüs anders anordnen */
+  nav ul {
+    flex-direction: column;
+  }
+
+  /* Beispiel: Elemente stapeln statt nebeneinander */
+  .sidebar {
+    display: none;
+  }
+
+  /* Beispiel: Bilder skalieren */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
 
 
